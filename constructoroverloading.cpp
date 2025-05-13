@@ -24,3 +24,8 @@ mahasiswa:: mahasiswa (int iNim){
 mahasiswa:: mahasiswa(string iNama){
     nama = iNama; // definisi hanya nama
 }
+
+mahasiswa:: mahasiswa(int iNim, string iNama){
+    nim = iNim;  // definisi nim dan nama
+    nama = iNama;
+}
