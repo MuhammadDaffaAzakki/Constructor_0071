@@ -14,8 +14,8 @@ class barang {
 
 barang::barang (string namaBarang, int kodeBarang) {
     cout << " Constructor dengan parameter terpanggil" << endl;
-    cout << "Nama : " << namaBarang << endl;
-    cout << "Kode : " << kodeBarang << endl;
+    cout << "Nama Barang : " << namaBarang << endl;
+    cout << "Kode Barang : " << kodeBarang << endl;
 }
 
 int main() {
